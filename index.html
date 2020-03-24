@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather App</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="api.js" defer></script>
+        <script src="app.js" defer></script>
+    </head>
+    <body> 
+        <header>
+
+        </header>
+        <div id="root">
+            <div id="tempButton">
+                <button id="celsius" class="selected">ºC</button>
+                <button id="fahrenheit">ºF</button>
+            </div>
+
+            <div id="title">
+                <h1>Weather App</h1>
+                <label>Enter a location</label> <br>
+            </div>
+            <div id="app">
+                <input id="input" type="text">
+                <button id="submit">Get Weather</button>
+            </div>
+            <div id="display">
+                <h2 id="city"></h2>
+                <h3 id="tempDesc"></h3>
+                <img id="icon" src="">
+                <h4 id="weatherDesc"></h4>
+
+            </div>
+        </div>
+        <footer>
+
+        </footer>
+
+
+    </body>
+</html>
